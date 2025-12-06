@@ -41,4 +41,4 @@ dp[i] = min(dp[i], dp[j] + (nums[j] >= (i - j) ? 1 : Inf)) for j = 1..i-1
 
 Важно: каждый новый диапазон начинать сначала, чтобы не пропустить самый большой прыжок.
 
-[minJumps](./pics/minJumps.png)
+![minJumps](./pics/minJumps.png)
