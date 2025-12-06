@@ -81,7 +81,7 @@ CutRod(p, n, memo):
 
 `dp[i - 1]` - максимальная стоимость разбиения стержня длиной i
 `dp[0] = p[0]`
-`dp[i] = max by i (p[i] + dp[i - 1])` 
+`dp[i] = max by j (p[j] + dp[i - j - 1])` 
 
 ```
 CutRod(p, n, dp):
